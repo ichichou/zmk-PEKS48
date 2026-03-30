@@ -134,7 +134,7 @@
 &bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &kp LSG(N2)  &none  &none  &none         &none         &kp OS_LOCK
 &studio_unlock  &kp F1        &kp F2        &none         &none         &none             &kp LSG(N3)  &none  &none  &kp C_PREV    &kp C_NEXT    &kp C_PP
 &none           &kp LG(LBKT)  &kp LG(RBKT)  &none         &to MTGAP     &to BASE          &kp LSG(N4)  &none  &none  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE
-&trans          &none         &none         &none         &none         &sys_reset        &sys_reset   &none  &none  &none         &none         &trans
+&trans          &none         &none         &none         &none         &bootloader       &bootloader  &none  &none  &none         &none         &trans
             >;
         };
 
