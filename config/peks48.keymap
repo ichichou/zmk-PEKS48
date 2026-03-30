@@ -86,55 +86,55 @@
 
         base_layer {
             bindings = <
-&mt HYPR_TAB  &kp Q      &kp W     &kp E          &kp R        &kp T         &kp Y         &kp U            &kp I          &kp O     &kp P      &kp BSPC
-&mt LCTL_ESC  &kp A      &kp S     &kp D          &kp F        &kp G         &kp H         &kp J            &kp K          &kp L     &kp SEMI   &kp SQT
-&kp LSHIFT    &kp Z      &kp X     &kp C          &kp V        &kp B         &kp N         &kp M            &kp COMMA      &kp DOT   &kp FSLH   &kp BSLH
-&mo FN        &kp RCTRL  &kp LALT  &mt LGUI_LNG2  &lt NAV_ESC  &mt LSFT_SPC  &mt RCTL_RET  &lt_qt SYM_BSPC  &mt RGUI_LNG1  &kp RALT  &kp RCTRL  &lt FN_GRV
+&mt HYPR_TAB  &kp Q      &kp W     &kp E          &kp R        &kp T             &kp Y         &kp U            &kp I          &kp O     &kp P      &kp BSPC
+&mt LCTL_ESC  &kp A      &kp S     &kp D          &kp F        &kp G             &kp H         &kp J            &kp K          &kp L     &kp SEMI   &kp SQT
+&kp LSHIFT    &kp Z      &kp X     &kp C          &kp V        &kp B             &kp N         &kp M            &kp COMMA      &kp DOT   &kp FSLH   &kp BSLH
+&mo FN        &kp RCTRL  &kp LALT  &mt LGUI_LNG2  &lt NAV_ESC  &mt LSFT_SPC      &mt RCTL_RET  &lt_qt SYM_BSPC  &mt RGUI_LNG1  &kp RALT  &kp RCTRL  &lt FN_GRV
             >;
         };
 
         mtgap_layer {
             bindings = <
-&mt HYPR_TAB  &kp Y      &kp P     &kp O          &kp U        &kp J         &kp K         &kp D            &kp L          &kp C     &kp W      &kp BSPC
-&mt LCTL_ESC  &kp I      &kp N     &kp E          &kp A        &kp COMMA     &kp M         &kp H            &kp T          &kp S     &kp R      &kp SQT
-&kp LSHIFT    &kp Q      &kp Z     &kp FSLH       &kp DOT      &kp SEMI      &kp B         &kp F            &kp G          &kp V     &kp X      &kp BSLH
-&mo FN        &kp RCTRL  &kp LALT  &mt LGUI_LNG2  &lt NAV_ESC  &mt LSFT_SPC  &mt RCTL_RET  &lt_qt SYM_BSPC  &mt RGUI_LNG1  &kp RALT  &kp RCTRL  &lt FN_GRV
+&mt HYPR_TAB  &kp Y      &kp P     &kp O          &kp U        &kp J             &kp K         &kp D            &kp L          &kp C     &kp W      &kp BSPC
+&mt LCTL_ESC  &kp I      &kp N     &kp E          &kp A        &kp COMMA         &kp M         &kp H            &kp T          &kp S     &kp R      &kp SQT
+&kp LSHIFT    &kp Q      &kp Z     &kp FSLH       &kp DOT      &kp SEMI          &kp B         &kp F            &kp G          &kp V     &kp X      &kp BSLH
+&mo FN        &kp RCTRL  &kp LALT  &mt LGUI_LNG2  &lt NAV_ESC  &mt LSFT_SPC      &mt RCTL_RET  &lt_qt SYM_BSPC  &mt RGUI_LNG1  &kp RALT  &kp RCTRL  &lt FN_GRV
             >;
         };
 
         nav_layer {
             bindings = <
-&trans  &kp LSG(C)  &kp LPAR       &kp RPAR       &kp LC(TAB)  &kp LSG(T)  &kp LG(TAB)  &kp LC(TAB)  &kp LBRC   &kp RBRC   &kp LG(RBKT)   &kp LG(UP)
-&trans  &kp LSG(A)  &mt LCTL_LBKT  &mt LSFT_RBKT  &kp LCG(V)   &kp LCG(S)  &kp LEFT     &kp DOWN     &kp UP     &kp RIGHT  &kp LG(LBKT)   &kp LG(DOWN)
-&trans  &kp LSG(Z)  &kp LG(X)      &kp LG(C)      &kp LSG(V)   &kp LG(V)   &kp BSPC     &kp DEL      &kp LC(A)  &kp LC(E)  &kp LG(GRAVE)  &none
-&trans  &trans      &trans         &trans         &trans       &trans      &trans       &trans       &trans     &trans     &trans         &trans
+&trans  &kp LSG(C)  &kp LPAR       &kp RPAR       &kp LC(TAB)  &kp LSG(T)      &kp LG(TAB)  &kp LC(TAB)  &kp LBRC   &kp RBRC   &kp LG(RBKT)   &kp LG(UP)
+&trans  &kp LSG(A)  &mt LCTL_LBKT  &mt LSFT_RBKT  &kp LCG(V)   &kp LCG(S)      &kp LEFT     &kp DOWN     &kp UP     &kp RIGHT  &kp LG(LBKT)   &kp LG(DOWN)
+&trans  &kp LSG(Z)  &kp LG(X)      &kp LG(C)      &kp LSG(V)   &kp LG(V)       &kp BSPC     &kp DEL      &kp LC(A)  &kp LC(E)  &kp LG(GRAVE)  &none
+&trans  &trans      &trans         &trans         &trans       &trans          &trans       &trans       &trans     &trans     &trans         &trans
             >;
         };
 
         sym_layer {
             bindings = <
-&trans  &kp DOT   &kp PLUS   &kp UNDER  &kp EXCL  &kp PIPE  &kp FSLH   &kp AMPS  &kp CARET  &kp DLLR  &kp COMMA  &none
-&trans  &kp STAR  &kp EQUAL  &kp MINUS  &kp N0    &kp AT    &kp TILDE  &kp N1    &kp PRCNT  &kp HASH  &kp COLON  &none
-&trans  &kp N8    &kp N6     &kp N4     &kp N2    &kp BSLH  &kp GRAVE  &kp N3    &kp N5     &kp N7    &kp N9     &none
-&trans  &trans    &trans     &trans     &trans    &trans    &trans     &trans    &trans     &trans    &trans     &trans
+&trans  &kp DOT   &kp PLUS   &kp UNDER  &kp EXCL  &kp PIPE      &kp FSLH   &kp AMPS  &kp CARET  &kp DLLR  &kp COMMA  &none
+&trans  &kp STAR  &kp EQUAL  &kp MINUS  &kp N0    &kp AT        &kp TILDE  &kp N1    &kp PRCNT  &kp HASH  &kp COLON  &none
+&trans  &kp N8    &kp N6     &kp N4     &kp N2    &kp BSLH      &kp GRAVE  &kp N3    &kp N5     &kp N7    &kp N9     &none
+&trans  &trans    &trans     &trans     &trans    &trans        &trans     &trans    &trans     &trans    &trans     &trans
             >;
         };
 
         win_layer {
             bindings = <
-&none  &none          &kp LCA(U)  &kp LCA(I)  &kp MEH(C)      &kp LC(N1)  &kp LC(N4)  &kp MEH(C)    &kp LA(UP)    &kp LSG(LBKT)  &none  &kp LCA(BSPC)
-&none  &kp LCA(LEFT)  &kp LCA(J)  &kp LCA(K)  &kp LCA(RIGHT)  &kp LC(N2)  &kp LC(N5)  &kp LCA(C)    &kp LA(DOWN)  &kp LSG(RBKT)  &none  &kp MEH(RET)
-&none  &kp LCA(Z)     &kp LCA(X)  &kp LCA(V)  &kp LCA(B)      &kp LC(N3)  &kp LC(N6)  &kp LCA(RET)  &kp MEH(RET)  &none          &none  &none
-&none  &none          &none       &none       &trans          &none       &none       &trans        &none         &none          &none  &none
+&none  &none          &kp LCA(U)  &kp LCA(I)  &kp MEH(C)      &kp LC(N1)      &kp LC(N4)  &kp MEH(C)    &kp LA(UP)    &kp LSG(LBKT)  &none  &kp LCA(BSPC)
+&none  &kp LCA(LEFT)  &kp LCA(J)  &kp LCA(K)  &kp LCA(RIGHT)  &kp LC(N2)      &kp LC(N5)  &kp LCA(C)    &kp LA(DOWN)  &kp LSG(RBKT)  &none  &kp MEH(RET)
+&none  &kp LCA(Z)     &kp LCA(X)  &kp LCA(V)  &kp LCA(B)      &kp LC(N3)      &kp LC(N6)  &kp LCA(RET)  &kp MEH(RET)  &none          &none  &none
+&none  &none          &none       &none       &trans          &none           &none       &trans        &none         &none          &none  &none
             >;
         };
 
         fn_layer {
             bindings = <
-&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp LSG(N2)  &none  &none  &none         &none         &kp OS_LOCK
-&studio_unlock  &kp F1        &kp F2        &none         &none         &none         &kp LSG(N3)  &none  &none  &kp C_PREV    &kp C_NEXT    &kp C_PP
-&none           &kp LG(LBKT)  &kp LG(RBKT)  &none         &to MTGAP     &to BASE      &kp LSG(N4)  &none  &none  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE
-&trans          &none         &none         &none         &none         &sys_reset    &sys_reset   &none  &none  &none         &none         &trans
+&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &kp LSG(N2)  &none  &none  &none         &none         &kp OS_LOCK
+&studio_unlock  &kp F1        &kp F2        &none         &none         &none             &kp LSG(N3)  &none  &none  &kp C_PREV    &kp C_NEXT    &kp C_PP
+&none           &kp LG(LBKT)  &kp LG(RBKT)  &none         &to MTGAP     &to BASE          &kp LSG(N4)  &none  &none  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE
+&trans          &none         &none         &none         &none         &sys_reset        &sys_reset   &none  &none  &none         &none         &trans
             >;
         };
 
