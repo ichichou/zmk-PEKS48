@@ -18,7 +18,7 @@
 // Modifiers
 #define LSG(key) LS(LG(key))
 #define LCA(key) LC(LA(key))
-#define LCG(key) LS(LC(key))
+#define LCG(key) LC(LG(key))
 #define MEH(key) LS(LC(LA(key)))
 #define HYPER    RC(RA(RG(RSHIFT)))
 
