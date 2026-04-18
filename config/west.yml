@@ -5,7 +5,7 @@ manifest:
     - name: powerenterkey
       url-base: https://github.com/PowerEnterKey
     - name: caksoylar  # RGB LED
-      url-base: https://github.com/caksoylar  
+      url-base: https://github.com/caksoylar
     - name: badjeff    # PMW3610
       url-base: https://github.com/badjeff
   projects:
