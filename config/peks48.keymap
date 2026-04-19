@@ -367,18 +367,9 @@
 
 //         mtgap_layer {
 //             bindings = <
-// &mt LSFT_SPC  &lt NAV_ESC  &mt LGUI_LNG2  &kp LALT  &kp RCTRL  &mo FN            &lt FN_GRV  &kp RCTRL  &kp RALT  &mt RGUI_TAB  &lt_qt SYM_BSPC  &mt RCTL_RET
-// &kp SEMI      &kp DOT      &kp FSLH       &kp Z     &kp Q      &kp LSHIFT        &kp BSLH    &kp X      &kp V     &kp G         &kp F            &kp B
-// &kp COMMA     &kp A        &kp E          &kp N     &kp I      &mt LCTL_ESC      &kp SQT     &kp R      &kp S     &kp T         &kp H            &kp M
-// &kp J         &kp U        &kp O          &kp P     &kp Y      &mt HYPR_TAB      &kp BSPC    &kp W      &kp C     &kp L         &kp D            &kp K
-//             >;
-//         };
-
-//         mtgap_layer {
-//             bindings = <
-// &mt HYPR_TAB  &kp Y      &kp P     &kp O          &kp U        &kp J             &kp K         &kp D            &kp L         &kp C     &kp W      &kp BSPC
-// &mt LCTL_ESC  &kp I      &kp N     &kp E          &kp A        &kp COMMA         &kp M         &kp H            &kp T         &kp S     &kp R      &kp SQT
-// &kp LSHIFT    &kp Q      &kp Z     &kp FSLH       &kp DOT      &kp SEMI          &kp B         &kp F            &kp G         &kp V     &kp X      &kp BSLH
+// &mt HYPR_TAB  &mg_q      &mg_w     &mg_e          &mg_r        &mg_t             &mg_y         &mg_u            &mg_i         &mg_o     &mg_p      &kp BSPC
+// &mt LCTL_ESC  &mg_a      &mg_s     &mg_d          &mg_f        &mg_g             &mg_h         &mg_j            &mg_k         &mg_l     &mg_semi   &mg_sqt
+// &kp LSHIFT    &mg_z      &mg_x     &mg_c          &mg_v        &mg_b             &mg_n         &mg_m            &mg_comma     &mg_dot   &mg_fslh   &kp BSLH
 // &mo FN        &kp RCTRL  &kp LALT  &mt LGUI_LNG2  &lt NAV_ESC  &mt LSFT_SPC      &mt RCTL_RET  &lt_qt SYM_BSPC  &mt RGUI_TAB  &kp RALT  &kp RCTRL  &lt FN_GRV
 //             >;
 //         };
