@@ -51,8 +51,8 @@
 };
 
 / {
-
     behaviors {
+
         mt_qt: mod_tap_with_quick_tap {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -72,6 +72,259 @@
             bindings = <&mo>, <&kp>;
             display-name = "Layer-Tap";
         };
+
+        // MTGAP {{{
+
+        mg_a: mtgap_a {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp I>, <&kp A>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        mg_b: mtgap_b {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp SEMI>, <&kp B>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        mg_c: mtgap_c {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp FSLH>, <&kp C>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        mg_d: mtgap_d {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp E>, <&kp D>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        mg_e: mtgap_e {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp O>, <&kp E>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        mg_f: mtgap_f {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp A>, <&kp F>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        mg_g: mtgap_g {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp COMMA>, <&kp G>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        mg_h: mtgap_h {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp M>, <&kp H>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        mg_i: mtgap_i {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp L>, <&kp I>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        mg_j: mtgap_j {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp H>, <&kp J>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        mg_k: mtgap_k {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp T>, <&kp K>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        mg_l: mtgap_l {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp S>, <&kp L>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        mg_m: mtgap_m {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp F>, <&kp M>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        mg_n: mtgap_n {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp B>, <&kp N>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        mg_o: mtgap_o {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp C>, <&kp O>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        mg_p: mtgap_p {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp W>, <&kp P>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        mg_q: mtgap_q {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp Y>, <&kp Q>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        mg_r: mtgap_r {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp U>, <&kp R>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        mg_s: mtgap_s {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp N>, <&kp S>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        mg_t: mtgap_t {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp J>, <&kp T>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        mg_u: mtgap_u {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp D>, <&kp U>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        mg_v: mtgap_v {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp DOT>, <&kp V>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        mg_w: mtgap_w {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp P>, <&kp W>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        mg_x: mtgap_x {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp Z>, <&kp X>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        mg_y: mtgap_y {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp K>, <&kp Y>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        mg_z: mtgap_z {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp Q>, <&kp Z>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        mg_comma: mtgap_comma {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp G>, <&kp COMMA>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        mg_dot: mtgap_dot {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp V>, <&kp DOT>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        mg_fslh: mtgap_fslh {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp X>, <&kp FSLH>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        mg_semi: mtgap_semi {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp R>, <&kp SEMI>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        mg_sqt: mtgap_sqt {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp SQT>, <&kp SQT>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        // }}}
+
     };
 
     conditional_layers {
@@ -106,11 +359,20 @@
         mtgap_layer {
             bindings = <
 &mt LSFT_SPC  &lt NAV_ESC  &mt LGUI_LNG2  &kp LALT  &kp RCTRL  &mo FN            &lt FN_GRV  &kp RCTRL  &kp RALT  &mt RGUI_TAB  &lt_qt SYM_BSPC  &mt RCTL_RET
-&kp SEMI      &kp DOT      &kp FSLH       &kp Z     &kp Q      &kp LSHIFT        &kp BSLH    &kp X      &kp V     &kp G         &kp F            &kp B
-&kp COMMA     &kp A        &kp E          &kp N     &kp I      &mt LCTL_ESC      &kp SQT     &kp R      &kp S     &kp T         &kp H            &kp M
-&kp J         &kp U        &kp O          &kp P     &kp Y      &mt HYPR_TAB      &kp BSPC    &kp W      &kp C     &kp L         &kp D            &kp K
+&mg_b         &mg_v        &mg_c          &mg_x     &mg_z      &kp LSHIFT        &kp BSLH    &mg_fslh   &mg_dot   &mg_comma     &mg_m            &mg_n
+&mg_g         &mg_f        &mg_d          &mg_s     &mg_a      &mt LCTL_ESC      &mg_sqt     &mg_semi   &mg_l     &mg_k         &mg_j            &mg_h
+&mg_t         &mg_r        &mg_e          &mg_w     &mg_q      &mt HYPR_TAB      &kp BSPC    &mg_p      &mg_o     &mg_i         &mg_u            &mg_y
             >;
         };
+
+//         mtgap_layer {
+//             bindings = <
+// &mt LSFT_SPC  &lt NAV_ESC  &mt LGUI_LNG2  &kp LALT  &kp RCTRL  &mo FN            &lt FN_GRV  &kp RCTRL  &kp RALT  &mt RGUI_TAB  &lt_qt SYM_BSPC  &mt RCTL_RET
+// &kp SEMI      &kp DOT      &kp FSLH       &kp Z     &kp Q      &kp LSHIFT        &kp BSLH    &kp X      &kp V     &kp G         &kp F            &kp B
+// &kp COMMA     &kp A        &kp E          &kp N     &kp I      &mt LCTL_ESC      &kp SQT     &kp R      &kp S     &kp T         &kp H            &kp M
+// &kp J         &kp U        &kp O          &kp P     &kp Y      &mt HYPR_TAB      &kp BSPC    &kp W      &kp C     &kp L         &kp D            &kp K
+//             >;
+//         };
 
 //         mtgap_layer {
 //             bindings = <
@@ -193,7 +455,5 @@
 //             >;
 //         };
 
-
     };
 };
-
