@@ -53,7 +53,7 @@
 / {
 
     behaviors {
-        mt_qt: mod_tap_quick_tap {
+        mt_qt: mod_tap_with_quick_tap {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "hold-preferred";
@@ -63,7 +63,7 @@
             display-name = "Mod-Tap";
         };
 
-        lt_qt: layer_tap_quick_tap {
+        lt_qt: layer_tap_with_quick_tap {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "hold-preferred";
