@@ -1,3 +1,5 @@
+// Includes {{{
+
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
@@ -6,6 +8,10 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/behaviors.h>
+
+// }}}
+
+// Macros {{{
 
 // Layers
 #define BASE  0
@@ -41,6 +47,10 @@
 // Otherwise
 #define OS_LOCK LCG(Q)
 
+// }}}
+
+// Behavior Configuration {{{
+
 &mt {
     tapping-term-ms = <150>;
 };
@@ -50,7 +60,11 @@
     tapping-term-ms = <150>;
 };
 
+// }}}
+
 / {
+    // Behaviors {{{
+
     behaviors {
 
         mt_qt: mod_tap_with_quick_tap {
@@ -327,6 +341,10 @@
 
     };
 
+    // }}}
+
+    // Conditional Layers {{{
+
     conditional_layers {
         compatible = "zmk,conditional-layers";
         tri_layer {
@@ -334,6 +352,8 @@
             then-layer = <WIN>;
         };
     };
+
+    // }}}
 
     keymap {
         compatible = "zmk,keymap";
