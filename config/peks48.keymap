@@ -338,6 +338,14 @@
             keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
         };
 
+        mg_bslh: mtgap_bslh {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp BSLH>, <&kp BSLH>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
+        };
+
         // }}}
 
     };
@@ -380,7 +388,7 @@
         mtgap_layer {
             bindings = <
 &mt LSFT_SPC  &lt NAV_ESC  &mt LGUI_LNG2  &kp LALT  &kp RCTRL  &mo FN            &lt FN_GRV  &kp RCTRL  &kp RALT  &mt RGUI_TAB  &lt_qt SYM_BSPC  &mt RCTL_RET
-&mg_b         &mg_v        &mg_c          &mg_x     &mg_z      &kp LSHIFT        &kp BSLH    &mg_fslh   &mg_dot   &mg_comma     &mg_m            &mg_n
+&mg_b         &mg_v        &mg_c          &mg_x     &mg_z      &kp LSHIFT        &mg_bslh    &mg_fslh   &mg_dot   &mg_comma     &mg_m            &mg_n
 &mg_g         &mg_f        &mg_d          &mg_s     &mg_a      &mt LCTL_ESC      &mg_sqt     &mg_semi   &mg_l     &mg_k         &mg_j            &mg_h
 &mg_t         &mg_r        &mg_e          &mg_w     &mg_q      &mt HYPR_TAB      &kp BSPC    &mg_p      &mg_o     &mg_i         &mg_u            &mg_y
             >;
@@ -390,7 +398,7 @@
 //             bindings = <
 // &mt HYPR_TAB  &mg_q      &mg_w     &mg_e          &mg_r        &mg_t             &mg_y         &mg_u            &mg_i         &mg_o     &mg_p      &kp BSPC
 // &mt LCTL_ESC  &mg_a      &mg_s     &mg_d          &mg_f        &mg_g             &mg_h         &mg_j            &mg_k         &mg_l     &mg_semi   &mg_sqt
-// &kp LSHIFT    &mg_z      &mg_x     &mg_c          &mg_v        &mg_b             &mg_n         &mg_m            &mg_comma     &mg_dot   &mg_fslh   &kp BSLH
+// &kp LSHIFT    &mg_z      &mg_x     &mg_c          &mg_v        &mg_b             &mg_n         &mg_m            &mg_comma     &mg_dot   &mg_fslh   &mg_bslh
 // &mo FN        &kp RCTRL  &kp LALT  &mt LGUI_LNG2  &lt NAV_ESC  &mt LSFT_SPC      &mt RCTL_RET  &lt_qt SYM_BSPC  &mt RGUI_TAB  &kp RALT  &kp RCTRL  &lt FN_GRV
 //             >;
 //         };
