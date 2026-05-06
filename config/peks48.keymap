@@ -425,19 +425,26 @@
             bindings = <
 &trans    &trans    &trans     &trans     &trans    &trans      &trans  &trans     &trans    &trans     &trans    &trans
 &kp BSLH  &kp N2    &kp N4     &kp N6     &kp N8    &trans      &none   &kp N9     &kp N7    &kp N5     &kp N3    &kp GRAVE
-&kp AT    &kp N0    &kp MINUS  &kp EQUAL  &kp STAR  &trans      &none   &kp COLON  &kp HASH  &kp PRCNT  &kp N1    &kp TILDE
-&kp PIPE  &kp EXCL  &kp UNDER  &kp PLUS   &kp DOT   &trans      &none   &kp COMMA  &kp DLLR  &kp CARET  &kp AMPS  &kp FSLH
+&kp AT    &kp N0    &kp MINUS  &kp EQUAL  &kp STAR  &trans      &none   &kp F18    &kp HASH  &kp PRCNT  &kp N1    &kp TILDE
+&kp PIPE  &kp EXCL  &kp UNDER  &kp PLUS   &kp F16   &trans      &none   &kp F15    &kp DLLR  &kp CARET  &kp AMPS  &kp F17
             >;
         };
 
 //         sym_layer {
 //             bindings = <
-// &trans  &kp DOT   &kp PLUS   &kp UNDER  &kp EXCL  &kp PIPE      &kp FSLH   &kp AMPS  &kp CARET  &kp DLLR  &kp COMMA  &none
-// &trans  &kp STAR  &kp EQUAL  &kp MINUS  &kp N0    &kp AT        &kp TILDE  &kp N1    &kp PRCNT  &kp HASH  &kp COLON  &none
+// &trans  &kp F16   &kp PLUS   &kp UNDER  &kp EXCL  &kp PIPE      &kp F17    &kp AMPS  &kp CARET  &kp DLLR  &kp F15    &none
+// &trans  &kp STAR  &kp EQUAL  &kp MINUS  &kp N0    &kp AT        &kp TILDE  &kp N1    &kp PRCNT  &kp HASH  &kp F18    &none
 // &trans  &kp N8    &kp N6     &kp N4     &kp N2    &kp BSLH      &kp GRAVE  &kp N3    &kp N5     &kp N7    &kp N9     &none
 // &trans  &trans    &trans     &trans     &trans    &trans        &trans     &trans    &trans     &trans    &trans     &trans
 //             >;
 //         };
+//
+// F15, F16, F17, F18 は Karabiner-Elements で記号に変換する
+// 英語入力／日本語入力のどちらでも半角記号を入力
+// - F15 -> ,
+// - F16 -> .
+// - F17 -> /
+// - F18 -> :
 
         win_layer {
             bindings = <
