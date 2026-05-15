@@ -369,55 +369,55 @@
 
         base_layer {
             bindings = <
-&mt LSFT_SPC  &lt NAV_ESC  &mt LGUI_LNG2  &kp LALT  &kp RCTRL  &mo FN            &lt FN_GRV  &kp RCTRL  &kp RALT  &mt RGUI_TAB  &lt_qt SYM_BSPC  &mt RCTL_RET
-&kp B         &kp V        &kp C          &kp X     &kp Z      &kp LSHIFT        &kp BSLH    &kp FSLH   &kp DOT   &kp COMMA     &kp M            &kp N
-&kp G         &kp F        &kp D          &kp S     &kp A      &mt LCTL_ESC      &kp SQT     &kp SEMI   &kp L     &kp K         &kp J            &kp H
-&kp T         &kp R        &kp E          &kp W     &kp Q      &mt HYPR_TAB      &kp BSPC    &kp P      &kp O     &kp I         &kp U            &kp Y
+&mt LSFT_SPC  &lt NAV_ESC  &mt LGUI_LNG2  &kp LALT  &kp RCTRL  &mo FN            &lt FN_GRV  &kp RCTRL  &kp RALT  &mt RGUI_LNG1  &lt_qt SYM_BSPC  &mt RCTL_RET
+&kp B         &kp V        &kp C          &kp X     &kp Z      &kp LSHIFT        &kp BSLH    &kp FSLH   &kp DOT   &kp COMMA      &kp M            &kp N
+&kp G         &kp F        &kp D          &kp S     &kp A      &mt LCTL_ESC      &kp SQT     &kp SEMI   &kp L     &kp K          &kp J            &kp H
+&kp T         &kp R        &kp E          &kp W     &kp Q      &mt HYPR_TAB      &kp BSPC    &kp P      &kp O     &kp I          &kp U            &kp Y
             >;
         };
 
 //         base_layer {
 //             bindings = <
-// &mt HYPR_TAB  &kp Q      &kp W     &kp E          &kp R        &kp T             &kp Y         &kp U            &kp I         &kp O     &kp P      &kp BSPC
-// &mt LCTL_ESC  &kp A      &kp S     &kp D          &kp F        &kp G             &kp H         &kp J            &kp K         &kp L     &kp SEMI   &kp SQT
-// &kp LSHIFT    &kp Z      &kp X     &kp C          &kp V        &kp B             &kp N         &kp M            &kp COMMA     &kp DOT   &kp FSLH   &kp BSLH
-// &mo FN        &kp RCTRL  &kp LALT  &mt LGUI_LNG2  &lt NAV_ESC  &mt LSFT_SPC      &mt RCTL_RET  &lt_qt SYM_BSPC  &mt RGUI_TAB  &kp RALT  &kp RCTRL  &lt FN_GRV
+// &mt HYPR_TAB  &kp Q      &kp W     &kp E          &kp R        &kp T             &kp Y         &kp U            &kp I          &kp O     &kp P      &kp BSPC
+// &mt LCTL_ESC  &kp A      &kp S     &kp D          &kp F        &kp G             &kp H         &kp J            &kp K          &kp L     &kp SEMI   &kp SQT
+// &kp LSHIFT    &kp Z      &kp X     &kp C          &kp V        &kp B             &kp N         &kp M            &kp COMMA      &kp DOT   &kp FSLH   &kp BSLH
+// &mo FN        &kp RCTRL  &kp LALT  &mt LGUI_LNG2  &lt NAV_ESC  &mt LSFT_SPC      &mt RCTL_RET  &lt_qt SYM_BSPC  &mt RGUI_LNG1  &kp RALT  &kp RCTRL  &lt FN_GRV
 //             >;
 //         };
 
         mtgap_layer {
             bindings = <
-&mt LSFT_SPC  &lt NAV_ESC  &mt LGUI_LNG2  &kp LALT  &kp RCTRL  &mo FN            &lt FN_GRV  &kp RCTRL  &kp RALT  &mt RGUI_TAB  &lt_qt SYM_BSPC  &mt RCTL_RET
-&mg_b         &mg_v        &mg_c          &mg_x     &mg_z      &kp LSHIFT        &mg_bslh    &mg_fslh   &mg_dot   &mg_comma     &mg_m            &mg_n
-&mg_g         &mg_f        &mg_d          &mg_s     &mg_a      &mt LCTL_ESC      &mg_sqt     &mg_semi   &mg_l     &mg_k         &mg_j            &mg_h
-&mg_t         &mg_r        &mg_e          &mg_w     &mg_q      &mt HYPR_TAB      &kp BSPC    &mg_p      &mg_o     &mg_i         &mg_u            &mg_y
+&mt LSFT_SPC  &lt NAV_ESC  &mt LGUI_LNG2  &kp LALT  &kp RCTRL  &mo FN            &lt FN_GRV  &kp RCTRL  &kp RALT  &mt RGUI_LNG1  &lt_qt SYM_BSPC  &mt RCTL_RET
+&mg_b         &mg_v        &mg_c          &mg_x     &mg_z      &kp LSHIFT        &mg_bslh    &mg_fslh   &mg_dot   &mg_comma      &mg_m            &mg_n
+&mg_g         &mg_f        &mg_d          &mg_s     &mg_a      &mt LCTL_ESC      &mg_sqt     &mg_semi   &mg_l     &mg_k          &mg_j            &mg_h
+&mg_t         &mg_r        &mg_e          &mg_w     &mg_q      &mt HYPR_TAB      &kp BSPC    &mg_p      &mg_o     &mg_i          &mg_u            &mg_y
             >;
         };
 
 //         mtgap_layer {
 //             bindings = <
-// &mt HYPR_TAB  &mg_q      &mg_w     &mg_e          &mg_r        &mg_t             &mg_y         &mg_u            &mg_i         &mg_o     &mg_p      &kp BSPC
-// &mt LCTL_ESC  &mg_a      &mg_s     &mg_d          &mg_f        &mg_g             &mg_h         &mg_j            &mg_k         &mg_l     &mg_semi   &mg_sqt
-// &kp LSHIFT    &mg_z      &mg_x     &mg_c          &mg_v        &mg_b             &mg_n         &mg_m            &mg_comma     &mg_dot   &mg_fslh   &mg_bslh
-// &mo FN        &kp RCTRL  &kp LALT  &mt LGUI_LNG2  &lt NAV_ESC  &mt LSFT_SPC      &mt RCTL_RET  &lt_qt SYM_BSPC  &mt RGUI_TAB  &kp RALT  &kp RCTRL  &lt FN_GRV
+// &mt HYPR_TAB  &mg_q      &mg_w     &mg_e          &mg_r        &mg_t             &mg_y         &mg_u            &mg_i          &mg_o     &mg_p      &kp BSPC
+// &mt LCTL_ESC  &mg_a      &mg_s     &mg_d          &mg_f        &mg_g             &mg_h         &mg_j            &mg_k          &mg_l     &mg_semi   &mg_sqt
+// &kp LSHIFT    &mg_z      &mg_x     &mg_c          &mg_v        &mg_b             &mg_n         &mg_m            &mg_comma      &mg_dot   &mg_fslh   &mg_bslh
+// &mo FN        &kp RCTRL  &kp LALT  &mt LGUI_LNG2  &lt NAV_ESC  &mt LSFT_SPC      &mt RCTL_RET  &lt_qt SYM_BSPC  &mt RGUI_LNG1  &kp RALT  &kp RCTRL  &lt FN_GRV
 //             >;
 //         };
 
         nav_layer {
             bindings = <
-&trans      &trans       &trans         &trans         &trans      &trans      &trans        &trans         &trans     &trans     &trans       &trans
-&kp LG(V)   &kp LSG(V)   &kp LG(C)      &kp LG(X)      &kp LSG(Z)  &trans      &none         &kp LG(GRAVE)  &kp LC(E)  &kp LC(A)  &kp DEL      &kp BSPC
-&kp LCG(S)  &kp LCG(V)   &mt LSFT_RBKT  &mt LCTL_LBKT  &kp LSG(A)  &trans      &kp LG(DOWN)  &kp LG(LBKT)   &kp RIGHT  &kp UP     &kp DOWN     &kp LEFT
-&kp LSG(T)  &kp LC(TAB)  &kp RPAR       &kp LPAR       &kp LSG(C)  &trans      &kp LG(UP)    &kp LG(RBKT)   &kp RBRC   &kp LBRC   &kp LC(TAB)  &kp LG(TAB)
+&trans      &trans       &trans         &trans         &trans      &trans            &trans        &trans         &trans     &trans     &trans       &trans
+&kp LG(V)   &kp LSG(V)   &kp LG(C)      &kp LG(X)      &kp LSG(Z)  &trans            &none         &kp LG(GRAVE)  &kp LC(E)  &kp LC(A)  &kp DEL      &kp BSPC
+&kp LCG(S)  &kp LCG(V)   &mt LSFT_RBKT  &mt LCTL_LBKT  &kp LSG(A)  &kp LG(LBKT)      &kp LG(DOWN)  &kp LG(LBKT)   &kp RIGHT  &kp UP     &kp DOWN     &kp LEFT
+&kp LSG(T)  &kp LC(TAB)  &kp RPAR       &kp LPAR       &kp LSG(C)  &kp LG(RBKT)      &kp LG(UP)    &kp LG(RBKT)   &kp RBRC   &kp LBRC   &kp LC(TAB)  &kp LG(TAB)
             >;
         };
 
 //         nav_layer {
 //             bindings = <
-// &trans  &kp LSG(C)  &kp LPAR       &kp RPAR       &kp LC(TAB)  &kp LSG(T)      &kp LG(TAB)  &kp LC(TAB)  &kp LBRC   &kp RBRC   &kp LG(RBKT)   &kp LG(UP)
-// &trans  &kp LSG(A)  &mt LCTL_LBKT  &mt LSFT_RBKT  &kp LCG(V)   &kp LCG(S)      &kp LEFT     &kp DOWN     &kp UP     &kp RIGHT  &kp LG(LBKT)   &kp LG(DOWN)
-// &trans  &kp LSG(Z)  &kp LG(X)      &kp LG(C)      &kp LSG(V)   &kp LG(V)       &kp BSPC     &kp DEL      &kp LC(A)  &kp LC(E)  &kp LG(GRAVE)  &none
-// &trans  &trans      &trans         &trans         &trans       &trans          &trans       &trans       &trans     &trans     &trans         &trans
+// &kp LG(RBKT)  &kp LSG(C)  &kp LPAR       &kp RPAR       &kp LC(TAB)  &kp LSG(T)      &kp LG(TAB)  &kp LC(TAB)  &kp LBRC   &kp RBRC   &kp LG(RBKT)   &kp LG(UP)
+// &kp LG(LBKT)  &kp LSG(A)  &mt LCTL_LBKT  &mt LSFT_RBKT  &kp LCG(V)   &kp LCG(S)      &kp LEFT     &kp DOWN     &kp UP     &kp RIGHT  &kp LG(LBKT)   &kp LG(DOWN)
+// &trans        &kp LSG(Z)  &kp LG(X)      &kp LG(C)      &kp LSG(V)   &kp LG(V)       &kp BSPC     &kp DEL      &kp LC(A)  &kp LC(E)  &kp LG(GRAVE)  &none
+// &trans        &trans      &trans         &trans         &trans       &trans          &trans       &trans       &trans     &trans     &trans         &trans
 //             >;
 //         };
 
