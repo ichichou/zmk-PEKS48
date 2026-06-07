@@ -109,7 +109,7 @@
         mg_c: mtgap_c {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp FSLH>, <&kp C>;
+            bindings = <&kp SQT>, <&kp C>;
             mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
             keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
         };
@@ -277,7 +277,7 @@
         mg_x: mtgap_x {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp Z>, <&kp X>;
+            bindings = <&kp FSLH>, <&kp X>;
             mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
             keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
         };
@@ -333,7 +333,7 @@
         mg_sqt: mtgap_sqt {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp SQT>, <&kp SQT>;
+            bindings = <&kp Z>, <&kp SQT>;
             mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
             keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI)>;
         };
