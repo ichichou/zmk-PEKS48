@@ -151,8 +151,8 @@
 // &trans  &trans    &trans     &trans     &trans    &trans        &trans     &trans    &trans     &trans    &trans     &trans
 //             >;
 //         };
-//
-// F15, F16, F17, F18 は Karabiner-Elements で記号に変換する
+
+// SYM レイヤーの F15, F16, F17, F18 は Karabiner-Elements で記号に変換する
 // 英語入力／日本語入力のどちらでも半角記号を入力
 // - F15 -> ,
 // - F16 -> .
@@ -189,8 +189,8 @@
 //         fn_layer {
 //             bindings = <
 // &bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &kp LSG(N2)  &none  &none  &none         &none         &kp OS_LOCK
-// &studio_unlock  &kp F1        &kp F2        &none         &none         &none             &kp LSG(N3)  &none  &none  &kp C_PREV    &kp C_NEXT    &kp C_PP
-// &none           &kp LG(LBKT)  &kp LG(RBKT)  &none         &none         &none             &kp LSG(N4)  &none  &none  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE
+// &studio_unlock  &kp RC(U)     &none         &none         &none         &none             &kp LSG(N3)  &none  &none  &kp C_PREV    &kp C_NEXT    &kp C_PP
+// &none           &kp F1        &kp F2        &none         &none         &none             &kp LSG(N4)  &none  &none  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE
 // &trans          &none         &none         &none         &none         &bootloader       &bootloader  &none  &none  &none         &none         &trans
 //             >;
 //         };
