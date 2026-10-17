@@ -21,6 +21,7 @@
 #define FN    4
 
 // Modifiers
+#define LSC(key) LS(LC(key))
 #define LSG(key) LS(LG(key))
 #define LCA(key) LC(LA(key))
 #define LCG(key) LC(LG(key))
@@ -118,17 +119,17 @@
 
         nav_layer {
             bindings = <
-&trans      &trans       &trans         &trans         &trans      &trans            &trans        &trans         &trans     &trans     &trans       &trans
-&kp LG(V)   &kp LSG(V)   &kp LG(C)      &kp LG(X)      &kp LSG(Z)  &trans            &none         &kp LG(GRAVE)  &kp LC(E)  &kp LC(A)  &kp DEL      &kp BSPC
-&kp LCG(S)  &kp LCG(V)   &mt LSFT_RBKT  &mt LCTL_LBKT  &kp LSG(A)  &kp LG(LBKT)      &kp LG(DOWN)  &kp LG(LBKT)   &kp RIGHT  &kp UP     &kp DOWN     &kp LEFT
-&kp LSG(T)  &kp LC(TAB)  &kp RPAR       &kp LPAR       &kp LSG(C)  &kp LG(RBKT)      &kp LG(UP)    &kp LG(RBKT)   &kp RBRC   &kp LBRC   &kp LC(TAB)  &kp LG(TAB)
+&trans      &trans       &trans         &trans         &trans      &trans            &trans         &trans         &trans     &trans     &trans       &trans
+&kp LG(V)   &kp LSG(V)   &kp LG(C)      &kp LG(X)      &kp LSG(Z)  &trans            &none          &kp LG(GRAVE)  &kp LC(E)  &kp LC(A)  &kp DEL      &kp BSPC
+&kp LCG(S)  &kp LCG(V)   &mt LSFT_RBKT  &mt LCTL_LBKT  &kp LSG(A)  &kp LG(LBKT)      &kp LSC(LBKT)  &kp LG(LBKT)   &kp RIGHT  &kp UP     &kp DOWN     &kp LEFT
+&kp LSG(T)  &kp LC(TAB)  &kp RPAR       &kp LPAR       &kp LSG(C)  &kp LG(RBKT)      &kp LSC(RBKT)  &kp LG(RBKT)   &kp RBRC   &kp LBRC   &kp LC(TAB)  &kp LG(TAB)
             >;
         };
 
 //         nav_layer {
 //             bindings = <
-// &kp LG(RBKT)  &kp LSG(C)  &kp LPAR       &kp RPAR       &kp LC(TAB)  &kp LSG(T)      &kp LG(TAB)  &kp LC(TAB)  &kp LBRC   &kp RBRC   &kp LG(RBKT)   &kp LG(UP)
-// &kp LG(LBKT)  &kp LSG(A)  &mt LCTL_LBKT  &mt LSFT_RBKT  &kp LCG(V)   &kp LCG(S)      &kp LEFT     &kp DOWN     &kp UP     &kp RIGHT  &kp LG(LBKT)   &kp LG(DOWN)
+// &kp LG(RBKT)  &kp LSG(C)  &kp LPAR       &kp RPAR       &kp LC(TAB)  &kp LSG(T)      &kp LG(TAB)  &kp LC(TAB)  &kp LBRC   &kp RBRC   &kp LG(RBKT)   &kp LSC(RBKT)
+// &kp LG(LBKT)  &kp LSG(A)  &mt LCTL_LBKT  &mt LSFT_RBKT  &kp LCG(V)   &kp LCG(S)      &kp LEFT     &kp DOWN     &kp UP     &kp RIGHT  &kp LG(LBKT)   &kp LSC(LBKT)
 // &trans        &kp LSG(Z)  &kp LG(X)      &kp LG(C)      &kp LSG(V)   &kp LG(V)       &kp BSPC     &kp DEL      &kp LC(A)  &kp LC(E)  &kp LG(GRAVE)  &none
 // &trans        &trans      &trans         &trans         &trans       &trans          &trans       &trans       &trans     &trans     &trans         &trans
 //             >;
